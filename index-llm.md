@@ -58,8 +58,10 @@ Este índice sirve como mapa rápido para ubicar el archivo exacto a consultar o
 | :--- | :--- | :--- |
 | [`src/index.css`](./src/index.css) | Estilos CSS globales y variables semánticas HSL del tema. | Para cambiar estilos globales o variables de color. |
 | [`tailwind.config.ts`](./tailwind.config.ts) | Configuración de Tailwind CSS (colores semánticos, fuentes y radios de borde). | Para extender temas o utilidades de Tailwind. |
-| [`next.config.js`](./next.config.js) | Configuración de Next.js con exportación estática (`output: 'export'`), `trailingSlash` y `basePath` dinámico (`RUTA_BASE`). | Para ajustar el modo de compilación o la ruta base del despliegue. |
-| [`netlify.toml`](./netlify.toml) | Configuración de despliegue estático en Netlify (`out/`), variables de entorno y cabeceras HTTP. | Para modificar reglas de build, headers o enrutamiento en producción. |
+| [`next.config.js`](./next.config.js) | Configuración de Next.js con exportación estática (`output: 'export'`), `trailingSlash`, `basePath` y `assetPrefix` dinámicos (`RUTA_BASE`) para GitHub Pages. | Para ajustar el modo de compilación o la subruta del despliegue. |
+| [`.github/workflows/deploy-pages.yml`](./.github/workflows/deploy-pages.yml) | Workflow de GitHub Actions que compila el sitio estático con `pnpm` y despliega `./out` automáticamente en GitHub Pages al hacer push a `main`. | Para modificar el pipeline de CI/CD o las variables de entorno del despliegue. |
+| [`public/.nojekyll`](./public/.nojekyll) | Archivo marcador que evita que Jekyll en GitHub Pages ignore la carpeta `_next/` con CSS y JS. | Mantener siempre presente para despliegue en GitHub Pages. |
+| [`netlify.toml`](./netlify.toml) | Configuración alternativa de despliegue estático en Netlify (`out/`), si se usa en paralelo. | Solo si decidís desplegar también en Netlify. |
 | [`.env.example`](./.env.example) | Plantilla de variables de entorno requeridas (Supabase, URL del sitio y ruta base). | Como referencia al configurar un entorno local o de despliegue. |
 | [`package.json`](./package.json) | Manifiesto del proyecto con dependencias y scripts de desarrollo y compilación. | Para verificar scripts o actualizar paquetes. |
 | [`public/`](./public/) | Assets públicos y SEO: `robots.txt`, `sitemap.xml`, `llms.txt`, favicons y `og_banner_estres_final.jpg`. | Para actualizar metadatos públicos, OpenGraph o directivas para rastreadores. |
