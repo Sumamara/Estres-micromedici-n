@@ -1,0 +1,24 @@
+# Test de Estrés y Regulación · Balance Carga vs. Recuperación (PAEM-18)
+
+> Evaluación breve, gratuita y sin registro (18 preguntas, ~2 minutos) para medir si tu descanso y capacidad de recuperación alcanzan para tu nivel de estrés diario.
+
+- URL principal: https://inner-base.com/estres/
+- Idioma: Español (voseo)
+- Formato: Cuestionario interactivo de 18 ítems + resultado visual en formato Historias (Stories) + micro-herramienta práctica inmediata.
+
+## Qué evalúa
+1. **Carga diaria (Parte A · 12 ítems)**: Mente (saturación mental), Emociones (reactividad e irritabilidad), Cuerpo (tensión y somatización) y Hábitos y límites.
+2. **Recursos de recuperación (Parte B · 6 ítems)**: Desconexión y recuperación física/mental, y competencia de manejo y flexibilidad.
+
+## Los 4 estados del balance
+- **Óptimo**: Carga controlada (< 50%) y recuperación alta (>= 60%).
+- **Vulnerable**: Carga controlada (< 50%) pero recuperación baja (< 60%).
+- **Sobrecarga**: Carga alta (>= 50%) con recuperación alta (>= 60%).
+- **Riesgo de Burnout**: Carga alta (>= 50%) y recuperación baja (< 60%).
+
+## Qué recibe la persona al terminar
+- Diagnóstico inmediato de su estado actual en el cuadrante Carga vs. Recuperación.
+- Identificación de sus señales más frecuentes y su canal dominante de estrés.
+- Una micro-práctica respaldada por evidencia científica para aplicar el mismo día.
+- Opción de acceder a un taller práctico de 5 sesiones 1 a 1 vía WhatsApp (y una sesión de cortesía en casos de Riesgo de Burnout).
+
